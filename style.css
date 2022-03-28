@@ -1,0 +1,98 @@
+
+h3{
+    color:white;
+    background-color: black;
+    text-align: center;
+	top: auto;
+}
+h4{
+    color: white;
+    background-color: #0B1A4F ;
+}
+h5{
+    color: #0B1A4F;
+    background-color: #0B1A4F ; 
+}
+*{
+	padding: 0;
+	margin:0;
+}
+
+footer section{
+	margin:50px auto;
+	width: 100%;
+	height:auto;
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.rede{
+	width: 150px;
+	height: 150px;
+	float:left;
+	margin-left: 260px;
+	transition: all .4s ease-out;
+	border-radius: 50%;
+}
+
+.rede:hover{
+	cursor: pointer;
+	box-shadow: 4px 30px 16px 0px rgba(50, 50, 50, 0.45);
+	transform: translateY(-20px);
+}
+
+.rede#facebook{
+	background-color: white;
+}
+
+.rede#github{
+	background-color: white;
+}
+
+.rede#insta{
+	background-color: white;
+}
+
+.rede#link{
+	background-color: white;
+}
+
+
+
+img.icone{
+	margin:0px auto;
+	padding: 35px;
+	width: 80px;
+}
+.tabela {
+    
+    width: 500px;
+    height: 250px;
+    text-align: center;
+    border-style: solid;
+    border-color: white;
+    border-collapse: separate;  
+    border-spacing: 10px;   
+    color: black;  
+
+
+    right: 0;
+    left: 0;
+    margin: 0 auto 0 auto;
+}
+
+td {
+    vertical-align: middle;
+    border-style: solid;
+    border-color: white; 
+    color: black;
+}
+.foto{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    align-items: center;
+    background-color: black;
+}
